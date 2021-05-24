@@ -4,12 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>GitHub 연습</title>
+    <style>
+        dt{font-size:17px; font-weight:700;}
+        dd{margin-left:0; font-size:14px;}
+    </style>
 </head>
 <body>
     <div id="wrap">
-        <p>GitHub 연습 - 로컬저장소 만들기</p>
-        <p>로컬저장소 생성 후 첫번째 커밋 완료 - 수정 후 두번째 커밋</p>
+        <dl>
+            <dt>로컬저장소 생성하기</dt>
+            <dd>
+                <p>1.로컬저장소를 만들고자 하는 폴더를 우클릭 선택 후 Git Bash Here 선택</p>
+                <p>2.Git 명령어인 git init 입력 후 로컬저장소 생성 -> 해당폴더에 git이라는 폴더와 함께 Git Bash Here program에 "Initialized empty Git ~~"라는 텍스트가 나오면 성공</p>
+            </dd>
+        </dl>
+        <dl>
+            <dt>커밋 하는 방법</dt>
+            <dd>
+                <p>1.GitHub user.name / user.email를 등록</p>
+                <p>--> git config --global user.name "name명"</p>
+                <p>--> git config --global user.email "email명"</p>
+                <p>2.커밋할 파일명을 입력 git add index.html 입력 후 git 명령어를 통해 해당 파일의 수정내용 이나 설명을 추가할수있다.</p>
+                <p>--> git commit -m "설명추가" / 1 file changed , 1 insertion(+) 라는 내용이 나오면 성공</p>
+            </dd>
+        </dl>
     </div>
 </body>
 </html>
